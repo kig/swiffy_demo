@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Using Swiffy to create HTML animations in Flash</title>
+    <style>
+      body { margin: 0px; text-align: center; font-family: sans-serif; }
+      h1,h2 { font-family: Century Gothic; font-weight: normal; }
+      .content {
+        display: inline-block;
+        width: 568px;
+      }
+      iframe { border: 4px solid navy; }
+    </style>
+  </head>
+  <body>
+    <h1>Using Swiffy to create HTML animations in Flash</h1>
+    <div>
+      <iframe src="demo.swf.html" width="568" height="320"></iframe>
+    </div>
+    <div class="content">
+      <h2>Introduction</h2>
+      <p>The above animation was drawn in Flash but runs in pure HTML5, so it works on your mobile as well. Go on, try it out! Magic, no? Keep reading to find out how to make your own HTML animations in Flash.
+
+      <p>First off, get Flash. The easiest way is to get a <a href="http://www.amazon.com/gp/product/B007W76ZLW/ref=as_li_ss_tl?ie=UTF8&tag=muryu-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B007W76ZLW">Creative Cloud</a> subscription and download it from there. Done? Ok. Now, draw your animation. Don't know how? No problem.
+
+      <h2>Creating your animation</h2>
+      <p>Here's a two-line tutorial to creating Flash animations: Go to the timeline pane, click the onion skin button (looks like two squares), hammer F6 to create new keyframes, use comma and period to move back and forward in the animation, use the brush tool to draw each frame. For more details, you could check out <a href="http://www.adobe.com/devnet/flash/articles/animation_intro.html">this Adobe tutorial</a> for Flash basics, <a href="http://www.amazon.com/gp/product/0240810961/ref=as_li_ss_tl?ie=UTF8&tag=muryu-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0240810961">Drawn to Life</a><img src="http://www.assoc-amazon.com/e/ir?t=muryu-20&l=as2&o=1&a=0240810961" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+ for animation lessons, or for more advanced workflow, the <a href="http://www.amazon.com/gp/product/1590599128/ref=as_li_ss_tl?ie=UTF8&tag=muryu-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1590599128">Foundation Flash Cartoon Animation</a><img src="http://www.assoc-amazon.com/e/ir?t=muryu-20&l=as2&o=1&a=1590599128" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> book.
+
+        <h2>Installing the Swiffy extension</h2>
+        <p>Go to the <a href="https://www.google.com/doubleclick/studio/swiffy/">Swiffy project page</a>, download the Swiffy Extension and open it. The extension opens in the Adobe Extension Manager, which walks you through the installation process. Now the next time you open Flash, you should have an "Export to HTML5" menu item in the Commands menu.
+
+        <h2>Exporting your animation</h2>
+        <p>To export your animation, go to the Commands menu and click on "Export to HTML5". You get a small HTML file with your animation in it, ready for use.
+
+        <h2>Embedding your animation on your website</h2>
+        <p>The easiest way to use your animation is to put it in an IFRAME. The name of the Swiffy animation file is &lt;your animation name>.swf.html, so if you had a file MyAnimation.fla, the HTML file would be MyAnimation.swf.html. And to use it on your page you'd make an IFRAME like this <code>&lt;iframe src="MyAnimation.swf.html" width="500" height="400"></code>.
+        <p>As the animation is now plugin-free, all the usual CSS transforms and animations should work perfectly on it. 
+
+        <h2>Done!</h2>
+        <p>Now go forth to make your own HTML animations and wow the world!</p>
+
+    </div>
+  </body>
+</html>
